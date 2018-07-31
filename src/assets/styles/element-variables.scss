@@ -1,0 +1,35 @@
+/* 改变主题色变量 */
+$--color-primary: #409eff;
+.el-submenu__title,.el-menu-item{
+    color: #fff!important;
+    color: rgb(191, 203, 217)!important;
+}
+.el-menu-item.is-active {
+    color: $--color-primary!important;
+}
+.el-menu-item:hover{
+    background-color: rgb(38, 52, 69)!important;
+} .el-menu-item:focus
+{
+    background-color: rgb(38, 52, 69)!important;
+    color: #fff!important;
+}
+.el-submenu__title:hover {
+    background-color: rgb(38, 52, 69)!important;
+    color: #fff!important;
+}
+.el-menu--inline{
+    background-color: rgb(48, 65, 86)!important;
+    color: #fff!important;
+    text-align: center;
+}
+.el-submenu .el-menu-item {
+   min-width: auto!important;
+}
+.el-table th{
+    color:#333;
+}
+    /* 改变 icon 字体路径变量，必需 */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "~element-ui/packages/theme-chalk/src/index";
